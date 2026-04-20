@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #001433, #000E24);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #000E24;
+    box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.195);
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.imagem-gato {
+    width: 150px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.btn-gerar-image {
+    font-family: "Saira", sans-serif;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3385FF;
+    box-shadow: 8px 8px 15px #0052cc24;
+    cursor: pointer;
+}
+
+.btn-gerar-image:hover {
+    opacity: 0.7;
+}
+
+#copy {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    color: #E5F0FF;
+    margin-top: 40px;
+}
